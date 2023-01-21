@@ -1,5 +1,7 @@
 <!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <title>Bradley Brown</title>
   
@@ -61,6 +63,34 @@
             
         <h2>Research</h2>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/uom_box_plots.png" alt="hpp" style="border-style: none" width="200">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2207.02862">
+                  <papertitle>The Union of Manifolds Hypothesis</papertitle>
+              </a>
+              <br>
+              <strong>Bradley C.A. Brown</strong>,
+              Anthony L. Caterini,
+              Brendan Leigh Ross,
+              Jesse C. Cresswell,
+              Gabriel Loaiza-Ganem
+              <br>
+              <em>International Conference on Learning Representations (ICLR) 2023</em>. 
+              <br>
+              <a href="https://arxiv.org/abs/2207.02862">Paper</a> 
+              <br>
+              <p>
+                The manifold hypothesis states that low-dimensional manifold structure exists in high-dimensional data, which is strongly supported by the success of deep learning in processing such data. 
+                However, we argue here that the manifold hypothesis is incomplete, as it does not allow any variation in the intrinsic dimensionality of different sub-regions of the data space. We thus posit the union of manifold hypothesis, which states that high-dimensional data of interest comes from a union of disjoint manifolds; this allows intrinsic dimensionality to vary. 
+                We empirically verify this hypothesis on image datasets using a standard estimator of intrinsic dimensionality, and also demonstrate an improvement in classification performance derived from this hypothesis. 
+                We hope our work will encourage the community to further explore the benefits of considering the union of manifolds structure in data.</p>
+            </td>
+          </tr>
+
     
           <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -89,33 +119,6 @@
                 First, we show that common regularization techniques uniformly decrease the last-layer ID (LLID) of validation set activations for image classification models and show how this strongly affects model generalization performance. 
                 We also investigate how excessive regularization decreases a model's ability to extract features from data in earlier layers, leading to a negative effect on validation accuracy even while LLID continues to decrease and training accuracy remains near-perfect. 
                 Finally, we examine the LLID over the course of training of models that exhibit grokking. We observe that well after training accuracy saturates, when models "grok" and validation accuracy suddenly improves from random to perfect, there is a co-occurent sudden drop in LLID, thus providing more insight into the dynamics of sudden generalization.</p>
-            </td>
-          </tr>
-
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/uom_box_plots.png" alt="hpp" style="border-style: none" width="200">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://openreview.net/forum?id=aJp8UXRKvVm">
-                  <papertitle>The Union of Manifolds Hypothesis</papertitle>
-              </a>
-              <br>
-              <strong>Bradley C.A. Brown</strong>,
-              Anthony L. Caterini,
-              Brendan Leigh Ross,
-              Jesse C. Cresswell,
-              Gabriel Loaiza-Ganem
-              <br>
-              <em>NeurIPS 2022 workshop: <a href="https://www.neurreps.org/">NeuReps</a></em>. 
-              <br>
-              <a href="https://openreview.net/forum?id=aJp8UXRKvVm">Paper</a> 
-              <br>
-              <p>
-                The manifold hypothesis states that low-dimensional manifold structure exists in high-dimensional data, which is strongly supported by the success of deep learning in processing such data. 
-                However, we argue here that the manifold hypothesis is incomplete, as it does not allow any variation in the intrinsic dimensionality of different sub-regions of the data space. We thus posit the union of manifold hypothesis, which states that high-dimensional data of interest comes from a union of disjoint manifolds; this allows intrinsic dimensionality to vary. 
-                We empirically verify this hypothesis on image datasets using a standard estimator of intrinsic dimensionality, and also demonstrate an improvement in classification performance derived from this hypothesis. 
-                We hope our work will encourage the community to further explore the benefits of considering the union of manifolds structure in data.</p>
             </td>
           </tr>
 
